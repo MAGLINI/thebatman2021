@@ -1,0 +1,101 @@
+/******************************************************/
+.header
+{
+    /* Элементы распологаются в строку */
+    display: flex;
+    /* Элементы по центру по вертикали */
+    align-items: center;
+    /* раскидать элементы так, чтобы оставалось одинаковое расстояние между элементами*/
+    justify-content: space-between;
+    /*Отступ сверху*/
+    padding-top: 45px;
+    margin-bottom: 30%;
+}
+/******************************************************/
+.logo
+{
+    font-style:normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 28px; 
+}
+/******************************************************/
+.search
+{
+    /* Элементы распологаются в строку */
+    display: flex;
+     /* Элементы по центру по вертикали */
+    align-items: center;
+
+    flex:0.8; 
+}
+/******************************************************/
+.search-input
+{    
+    background: rgba(196, 196, 196, 0.5);
+    /* Загругления */
+    border-radius: 7px;
+    /* Внутрение отступы*/
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+
+    border:none;
+    color:#AEAEAE;
+
+    font-size: 14px;
+    line-height: 16px;
+
+    flex:1; 
+}
+/******************************************************/
+.search-button
+{
+    /* Убираем фоновый цвет */ 
+    background-color: transparent;
+    border: none;
+    /* Сверху, слева */
+    padding: 10px 18px; 
+}
+/******************************************************/
+/*  Placeholder */
+::-webkit-input-placeholder
+{ /* Chrome */
+    color: #AEAEAE;
+}
+
+:-ms-input-placeholder
+{ /* IE 10+ */
+    color: #AEAEAE;
+}
+::-moz-placeholder
+{ /* Firefox 19+ */
+    color: #AEAEAE;
+    opacity: 1;
+}
+:-moz-placeholder 
+{ /* Firefox 4 - 18 */
+    color: #AEAEAE;
+    opacity: 1;
+}
+/******************************************************/
+.user
+{
+     /* Элементы распологаются в строку */
+    display:flex;
+    /* Элементы по центру по вертикали */
+    align-items: center;    
+}
+/******************************************************/
+.avatarUser
+{
+    /*отсутп слева*/
+    margin-left: 20.42px;
+    width: 40px;
+    height: 40px;
+    /* загругление*/
+    border-radius: 50%;
+    /* Равномерно заполнить */ 
+    object-fit: cover;
+}

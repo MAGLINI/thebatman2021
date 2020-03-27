@@ -1,0 +1,23 @@
+/******************************************************/
+body 
+{
+    background-color: #0A090A;
+    color: #fff;
+    /* Шрифт с https://fonts.google.com/  */
+    font-family: 'Roboto', sans-serif; 
+    background-image: url('../img/main-bg.jpg');
+    /* Не повторять */
+    background-repeat: no-repeat;
+    /* Прижать картинку к верху и к центру */
+    background-position:top center;
+}
+/******************************************************/
+.container
+{
+    /* solid -  сплошная */
+    /* border: 1px solid  red;  */
+    max-width: 1140px;
+    /* Выравниваем по центру */
+    margin: auto;
+}
+

@@ -1,0 +1,147 @@
+/******************************************************/
+@media(max-width:1200px) /* не больше 1200 */
+{
+   .container
+   {
+       max-width: 960px;
+   }
+   
+   .tabs-item
+   {
+       font-size: 16px;
+   }
+}
+/******************************************************/
+@media(max-width:992px)
+{
+    .container
+    {
+        max-width: 740px;
+    }
+
+    .tabs
+    {
+        /* Если элементы не помещаются в одну строку - надо переносить , при условии что флекс  */
+        flex-wrap: wrap;
+    }
+
+    .tabs-item
+    {
+
+        flex-basis:20%;
+        /* высота строки */ 
+        line-height: 2;
+    }
+
+    .full-content
+    {
+        flex-wrap: wrap;
+    }
+
+    .tabs-content
+    {
+        margin-bottom: 5%;
+    }
+
+    .text
+    {
+        font-size: 14px;
+    }
+
+    .actors-list
+    {
+        font-size: 14px;
+    }
+}
+/******************************************************/
+@media(max-width:768px)
+{
+    .container
+    {
+        max-width: 540px;
+    }
+
+    .more
+    {
+        display: none;
+    }
+
+    .tabs-item
+    {
+        flex-basis:40%;
+    }
+
+    .tabs-content
+    {
+        margin-right:0;
+    }
+
+}
+/******************************************************/
+@media(max-width:578px)
+{
+    .container
+    {
+        max-width: 90%;
+    }
+
+    .header
+    {
+        flex-wrap: wrap;
+    
+    }
+
+    .search
+    {
+        flex:1;
+        flex-basis:100%;
+        order:3;
+        margin-top:5%;
+    }
+
+    .content
+    {
+        flex-wrap: wrap;
+    }
+
+    .actors-list, .actors-title
+    {
+        display: none;
+    }
+
+    .short-info
+    {
+        margin-bottom: 5%;
+    }
+
+    .movie-info
+    {
+        flex-wrap: wrap;
+    }
+
+    .trailer
+    {
+        margin-top:10%;
+        flex-basis:100%;
+    }
+    
+    .poster
+    {
+        margin-top:-20%;
+        display:inline-block;
+        width:100%;
+    }
+
+    .short-info
+    {
+        margin-right:0;
+    }
+
+    .button
+    {
+        width:100%;
+    }
+
+
+
+}

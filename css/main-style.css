@@ -1,0 +1,244 @@
+/******************************************************/
+.title
+{
+    margin: 0;
+    margin-bottom: 7.4px;
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    line-height: 64px;
+}
+/******************************************************/
+.title-en
+{
+    font-size: 20px;
+    line-height: 23px;
+    color: #787878;
+    display: inline-block;
+    margin-bottom: 38px;
+}
+/******************************************************/
+.info
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 108.44px;
+}
+/******************************************************/
+.movie-info
+{
+    display: flex;
+    align-items: center;
+}
+/******************************************************/
+.tag
+{
+    display: inline-block;
+    font-weight: 16px;
+    line-height: 19px;
+    color:#333333;
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-right: 20px;
+}
+/******************************************************/
+.country
+{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 16px;
+    line-height: 19px;
+    margin-right: 33px;
+}
+/******************************************************/
+.trailer
+{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 19px;  
+    color: #FFFFFF; 
+    text-decoration: none;
+}
+/******************************************************/
+.trailer:before
+{    
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/play.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-right: 15px;
+}
+/******************************************************/
+.more
+{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 19px;  
+    color: #FFFFFF; 
+    text-decoration: none;
+}
+/******************************************************/
+.more:after
+{
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/play.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 15px;
+    transform: rotate(90deg);
+}
+/******************************************************/
+.content
+{
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 3px;
+    color:#000000;
+    /* Внутренний отступ Сверху покраям */ 
+    padding: 3% 4%;
+}
+/******************************************************/
+.short-info
+{
+    margin-right:3%;
+}
+/******************************************************/
+.poster
+{
+    display: block;
+    margin-top:-40%;
+    margin-bottom: 20px;
+}
+/******************************************************/
+.button
+{
+    background: #FF8F27;
+    /* Внутренний отступ Сверху покраям */ 
+    padding: 10px 44px;
+    color:#FFFFFF;
+    font-size: 14.18px;
+    line-height:16px;
+    border:none;
+}
+/******************************************************/
+.actors-title
+{
+    padding-left: 15px;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 150%; 
+    margin-bottom: 10px;
+}
+/******************************************************/
+.actors-list
+{
+   margin:0;
+   list-style: none;
+   padding-left: 15px;
+   text-decoration: underline;
+   line-height: 150%;
+ 
+}
+/******************************************************/
+.tabs
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4%;
+}
+/******************************************************/
+.tabs-item
+{
+    color:#000000;
+    text-decoration: none;    
+    font-size: 18px;
+    line-height: 21px;
+    
+}
+.tabs-item:not(:last-child)
+{
+    margin-right:4%;
+}
+/******************************************************/
+.full-content
+{
+    display: flex;
+    justify-content: space-between;
+}
+/******************************************************/
+.full-info
+{
+
+    flex : 0.95;
+}
+/******************************************************/
+.tabs-item-active
+{
+    color:#FF8F27;
+    text-decoration: none;
+}
+/******************************************************/
+.tabs-content
+{
+    display: none;
+    margin-right: 70px;
+}
+/******************************************************/
+.visible
+{
+    display:block;
+}
+/******************************************************/
+.text
+{
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 140%;
+}
+/******************************************************/
+.subscribe-form
+{
+  display: flex;
+  margin-bottom: 48px;
+}
+/******************************************************/
+.subscribe-title
+{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 14px;
+    margin-top:0px;
+    
+}
+/******************************************************/
+.subscribe-input
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left:18px;
+    width: 175px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border:none;
+    font-size: 14px;
+    background: rgba(241, 241, 241, 0.5);
+    
+}
+/******************************************************/
+.subscribe-button
+{        
+    background: #FF8F27;
+    border-radius: 0px 5px 5px 0px;
+    border:none;
+    padding: 12px;  
+ }
+/******************************************************/
+/* @media (max-width:1200px) */
